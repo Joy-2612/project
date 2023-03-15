@@ -1,16 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
-import Features from './Features'
-import Appointments from './Appointments'
+import Stickywrapper from './Stickywrapper'
+import Home_banner from './Home_banner'
+import Testimonials from './Testimonials'
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
-        <Features/>
-        <Appointments/>
-        <Footer/>
+       <Home_banner/>
+       <Testimonials/>
+       <Stickywrapper/> 
     </div>
   )
 }
