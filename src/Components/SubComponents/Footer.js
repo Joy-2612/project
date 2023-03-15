@@ -8,9 +8,9 @@ export const Footer = () => {
         <div className="box">
             <h3>quick links</h3>
             <a href="#"><i className="fas fa-angle-right"></i> home</a>
-            <a href="about.php"><i className="fas fa-angle-right"></i> about</a>
-            <a href="package.php"><i className="fas fa-angle-right"></i> package</a>
-            <a href="book.php"><i className="fas fa-angle-right"></i> book</a>
+            <a href="#"><i className="fas fa-angle-right"></i> about</a>
+            <a href="#"><i className="fas fa-angle-right"></i> package</a>
+            <a href="#"><i className="fas fa-angle-right"></i> book</a>
         </div>
         <div className="box">
             <h3>extra links</h3>
