@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import './Navbar.css'
+import logo from "../../assets/logo.svg"
 import Home from './Home'
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
   return (
     <div>
        <section className="header">
-        <a href="#" className="logo">TripKar</a>
+        <a href="#" className="logo"><img src={logo}/></a>
         <nav className="navbar">
             <a href="#">Find Doctors</a>
             <a href="#">Video Consult</a>
