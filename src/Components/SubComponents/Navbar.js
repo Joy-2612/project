@@ -1,27 +1,37 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Navbar.css'
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import logo from "../../assets/logo.svg"
 import Home from './Home'
 
 const Navbar = () => {
+    useEffect(() => {
+        let menu = document.querySelector('#menu-btn');
+        let navbar = document.querySelector('.navbar');
+        menu.onclick = () =>{
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+         };
+         
+         window.onscroll = () =>{
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+         };
+      });
   return (
     <div>
-        <div className='logo'>
-            <h2>Practo</h2>
-        </div>
-            <Router>
-                <Routes>
-                    <Route path='/' element={<div>Home</div>}/>
-                    <Route path='/about' element={<div>about</div>}/>
-                    <Route path='/package' element={<div>package</div>}/>
-                    <Route path='/book' element={<div>book</div>}/>
-                    <Route path='/map' element={<div>map</div>}/>
-                </Routes>
-            </Router>
-            {/* <Link to="/">Home</Link>
-            <Link to="/about">About</Link> */}
+       <section className="header">
+        <a href="#" className="logo"><img src={logo}/></a>
+        <nav className="navbar">
+            <a href="#">Find Doctors</a>
+            <a href="#">Video Consult</a>
+            <a href="#">Medicines</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </nav>
         
-        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="menu-btn" className="fas fa-bars"></div>
+       
+    </section>
         
     </div>
   )
