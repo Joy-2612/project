@@ -65,7 +65,7 @@ export const productData = [
       id: 7,
       imageurl:
         "https://www.practostatic.com/consumer-home/desktop/images/1558283618/sp-gynecologist@2x.jpg",
-      name: "Gynecologist/Obstetrician",
+      name: "Gynecologist",
       description: "Explore for women’s health, pregnancy and infertility treatments",
     },
     {

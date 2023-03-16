@@ -11,7 +11,8 @@
     box-shadow: var(--box-shadow);
     align-items: center;
     justify-content: space-between;
-
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .header .logo img{
@@ -22,12 +23,14 @@
 
 .header .navbar a{
     font-size: 2rem;
+    font-weight: 500;
     margin-left: 2rem;
+    color: #414146;
     color: var(--black);
 }
 
 .header .navbar a:hover{
-    color: var(--main-color);
+    color: rgb(0, 74, 164);
 }
 
 #menu-btn{

@@ -18,7 +18,7 @@ import img3 from "../../assets/img3.jpg"
 const Testimonials = () => {
   return (
     <div>
-    {/* <p className="testimonials_heading">What our users have to say</p> */}
+    <p className="testimonials_heading">What our users have to say</p>
     <section className="container">
       <div className="testimonial mySwiper">
         <div className="testi-content swiper-wrapper">

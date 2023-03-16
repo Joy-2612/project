@@ -18,8 +18,7 @@ export default function Home_DocSp_carousel() {
     <div>
       <div className="special_cards_container">
         <h1>Book an appointment for an in-clinic consultation</h1>
-        <br />
-       <h2>Find experienced doctors across all specialties</h2>
+       <p>Find experienced doctors across all specialties</p>
       <Carousel showDots={true} responsive={responsive}>
         {product}
       </Carousel>

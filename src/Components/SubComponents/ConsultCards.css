@@ -1,0 +1,139 @@
+
+
+.consult-cards{
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* margin-right: 50px; */
+}
+
+
+
+.button-all-speciality{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 208, 255);
+    font-size: 18px;   
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 208, 255);
+    background-color: white;
+    padding: 1rem 1rem;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+
+.button-all-speciality:hover{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 208, 255);
+    font-size: 2rem;     
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 208, 255);
+    background-color: rgba(225, 252, 255, 0.616);
+    font-weight: 500;
+    padding: 1rem 1rem;
+    transition: all 0.1s;
+}
+
+
+
+
+
+.consult-cards-about{
+    margin-left: 40px;
+    display:flex;
+    color: #414146;
+    justify-content: space-between;
+}
+.consult-cards-about h1{
+    font-size:3rem;
+
+}
+.consult-cards-about p{
+    font-size: 2rem;
+
+}
+
+@media  (max-width: 500px){
+.consult-cards-about{
+    margin-left: 0;
+}
+ .button-all-speciality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 1rem;
+    height: 5rem;
+
+ }
+ .button-all-speciality:hover{
+    font-size: 1rem;
+    padding: 1rem;
+    height: 5rem;
+
+ }
+
+}
+@media (max-width: 900px){
+    .button-all-speciality{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 1rem;
+        height: 7rem;
+    
+     }
+     .button-all-speciality:hover{
+        font-size: 2rem;
+        padding: 1rem;
+        height: 7rem;
+    
+     }
+
+}
+
+
+.consult-cards-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.consult-card-container{
+    width: 125px;
+    margin :4% ;
+}
+
+.consult-card-image img{
+    width: 125px;
+    height: 125px;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.consult-card-symptoms{
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #414146;
+    margin-bottom: 8px;
+}
+
+
+.consult-now{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 0.5rem;
+}
+
+
+.consult-now a{
+    color: rgb(0, 208, 255);
+    font-weight: 550;
+}

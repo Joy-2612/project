@@ -5,8 +5,10 @@ const Home_Speciality_cards = (props) => {
     <div>
     <div className="speciality_card">
       <img className="product--image" src={props.url} alt="product image" />
-      <h2>{props.name}</h2>
+      <div className="product-desc">
+      <a href="#"><h2>{props.name}</h2></a>
       <p className="product-para">{props.description}</p>
+      </div>
       <p>
         <button>Book Appointment</button>
       </p>
