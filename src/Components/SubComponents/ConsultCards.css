@@ -1,0 +1,43 @@
+/* body{
+    margin-left: 8%;
+    margin-right: 8%;
+} */
+
+
+
+.consult-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.consult-card-container{
+    width: 125px;
+    margin :5% ;
+}
+
+.consult-card-image{
+    background-image: url('https://picsum.photos/200');
+    width: 125px;
+    height: 125px;
+    align-items: center;
+    border-radius: 50%;
+    /* margin: 4px; */
+    margin-bottom: 10px;
+}
+
+.consult-card-symptoms{
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+
+.consult-now{
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 0.5rem;
+    color: bisque;
+}

@@ -6,6 +6,11 @@
 }
 
 
+/* body{
+    margin-left: 8%;
+    margin-right: 8%;
+} */
+
 
 
 .search{
@@ -34,6 +39,7 @@
     padding: 8px 16px;
 }
 
+
 .search-bar input{
     background: transparent;
     flex :1;
@@ -41,12 +47,12 @@
     outline: none;
     padding: 10px 12px;
     font-size: 15px;
-    color:#4540ab;
+    color: rgb(0, 74, 164);
 }
 
 
 ::placeholder{
-    color: #4540ab;
+    color: rgb(0, 74, 164);
 }
 
 
@@ -59,6 +65,6 @@
     border-radius: 50%;
     width: 35px;
     height: 35px;
-    background: #4540ab;
+    background: rgb(0, 74, 164);
     cursor: pointer;
 }
