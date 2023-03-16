@@ -1,0 +1,120 @@
+.card-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    zoom: 1.1;
+}
+
+.s-static__card {
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+.u-margin--10__right {
+    margin-right: 10px;
+}
+.u-margin--10__left {
+    margin-left: 10px;
+}
+.card-our-offerings {
+    border: 1px solid #f0f0f5;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 12%);
+    border-radius: 24px;
+    cursor: pointer;
+}
+.card__img--200x290 {
+    width: 200px;
+    height: 290px;
+}
+.card {
+    position: relative;
+}
+.card-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.card-our-offerings .img-wrapper {
+    width: 200px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    height: 170px;
+}
+.card_img {
+    width: 100%;
+    height: 100%;
+}
+.card-our-offerings .info {
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.card-our-offerings .info .row-1 {
+    padding-bottom: 8px;
+}
+.u-t-c--grey_7 {
+    color: #2d2d32;
+}
+.card-our-offerings .info .row-2 {
+    font-weight: 400;
+}
+.u-t-c--grey_1 {
+    color: #787887;
+}
+.u-font--bold {
+    font-weight: 700;
+}
+.u-font--20 {
+    font-size: 20px;
+}
+.u-font--14 {
+    font-size: 1.2rem;
+}
+
+.c1{
+    background:#AFCFED;
+    padding-top:12px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-bottom:0px
+}
+
+.c2{
+    background:#98CBD6;
+    padding-top:4px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:0px
+}
+
+.c3{
+    background:#CCD0DB;
+    padding-top:0px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-bottom:0px
+}
+.c4{
+    background:#AFCFED;
+    padding-top:0px;
+    padding-left:18px;
+    padding-right:0px;
+    padding-bottom:0px
+}
+.c5{
+    background:#D5D8FC;
+    padding-top:16px;
+    padding-left:14px;
+    padding-right:20px;
+    padding-bottom:0px
+}
+
+
+@media (max-width: 471px){
+    .card-container{
+        zoom: 1.4;
+    }
+}

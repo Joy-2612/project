@@ -26,6 +26,7 @@ const Navbar = () => {
             <a href="#">Medicines</a>
             <a href="#">About Us</a>
             <a href="#">Contact Us</a>
+            {/* <a href="#" className="nav-login-signup">Login/SignUp</a> */}
         </nav>
         
         <div id="menu-btn" className="fas fa-bars"></div>

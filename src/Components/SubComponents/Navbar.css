@@ -35,6 +35,15 @@
     cursor: pointer;
     color: var(--black);
 }
+/* .nav-login-signup{
+    font-size: 2rem !important;
+    color: #787887!important;
+    background-color: #fff;
+    border: 1px solid  #787887;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+    padding: 8px 10px;
+} */
 
 @media (min-width: 1200px){
     .header .logo img{
