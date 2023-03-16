@@ -3,6 +3,56 @@
     margin-right: 8%;
 } */
 
+.consult-cards{
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* margin-right: 50px; */
+}
+
+
+
+.button-all-speciality{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 208, 255);
+    font-size: 18px;   
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 208, 255);
+    background-color: white;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 500;
+    margin-right: 60px;
+}
+
+
+.button-all-speciality:hover{
+    border-radius: 5px;
+    border: 2px solid rgb(0, 208, 255);
+    font-size: 18px;     
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 208, 255);
+    background-color: rgba(225, 252, 255, 0.616);
+    font-weight: 500;
+    padding: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: all 0.1s;
+}
+
+
+
+
+
+.consult-cards-about{
+    font-size: 16px;
+    margin-left: 50px;
+    display:flex;
+    justify-content: space-between;
+}
 
 
 .consult-cards-container{
@@ -12,16 +62,14 @@
 
 .consult-card-container{
     width: 125px;
-    margin :5% ;
+    margin :4% ;
 }
 
-.consult-card-image{
-    background-image: url('https://picsum.photos/200');
+.consult-card-image img{
     width: 125px;
     height: 125px;
     align-items: center;
     border-radius: 50%;
-    /* margin: 4px; */
     margin-bottom: 10px;
 }
 
@@ -39,5 +87,10 @@
     text-align: center;
     font-size: 15px;
     padding: 0.5rem;
-    color: bisque;
+}
+
+
+.consult-now a{
+    color: rgb(0, 208, 255);
+    font-weight: 550;
 }

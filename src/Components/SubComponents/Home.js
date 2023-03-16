@@ -12,8 +12,7 @@ const Home = () => {
        <Features/>
        <ConsultCards/>
        <Testimonials/>
-       <Stickywrapper/> 
-    </div>
+       </div>
   )
 }
 

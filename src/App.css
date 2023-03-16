@@ -62,13 +62,13 @@ section{
     
 }
 
-@media (min-width: 769px){
+@media (min-width: 911px){
     #menu-btn{
         display: none;
     }
 }
 
-@media (max-width :768px){
+@media (max-width :910px){
 
     #menu-btn{
         display: inline-block;

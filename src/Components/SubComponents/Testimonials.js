@@ -43,7 +43,6 @@ const Testimonials = () => {
 
             <div className="details">
               <span className="name">Marnie Lotter</span>
-              <span className="job">Web Developer</span>
             </div>
           </div></SwiperSlide>
         <SwiperSlide><div className="slide swiper-slide">
@@ -56,7 +55,6 @@ const Testimonials = () => {
 
             <div className="details">
               <span className="name">Marnie Lotter</span>
-              <span className="job">Web Developer</span>
             </div>
           </div></SwiperSlide>
           <SwiperSlide>
@@ -70,7 +68,7 @@ const Testimonials = () => {
 
             <div className="details">
               <span className="name">Marnie Lotter</span>
-              <span className="job">Web Developer</span>
+              
             </div>
           </div>
           </SwiperSlide>
@@ -81,6 +79,10 @@ const Testimonials = () => {
     </div>
     </div>
     </section>
+
+
+
+    
     </div>
   )
 }
