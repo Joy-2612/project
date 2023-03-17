@@ -18,6 +18,120 @@
     background-color: #fff;
 }
 
+
+.free{
+    color: green;
+    font-weight: 800;
+}
+
+
+.appointment_container{
+    padding: 1.5%;
+
+}
+
+
+.appoinment-type{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    
+}
+
+.appointment_container h2{
+    font-size: 20px;
+    display: flex;
+}
+
+.clinic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 5px 0px 0px 5px;
+    padding: 2%;
+    border: 2px solid black;
+    border-right: 1px;
+}
+
+.clinic h4{
+    margin: 4px;
+    display: flex;
+}
+
+.online{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 2%;
+    border: 2px solid black;
+}
+
+
+.online h4{
+    margin: 4px;
+    display: flex;
+}
+
+
+
+.appointment-fee{
+    background-color: #d7f5fe;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+
+.clinic-appointment-fee{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.clinic-appointment-fee h2{
+    /* font-size: 20px; */
+    margin:15px;
+    display: flex;
+}
+
+.clinic-logo{
+    background-color: #0098ec;
+    color: white;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    font-size: 20px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.clinic-description{
+    padding: 2%;
+    margin: auto;
+    font-size: 15px;
+}
+
+.clinic-description h4{
+    font-weight: 500;
+    display: flex;
+} 
+
+.clinic-rating{
+    font-weight: 500;
+}
+
+
 @media (max-width: 950px){
     .main_container{
         flex-direction: column;
