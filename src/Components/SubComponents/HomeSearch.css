@@ -68,3 +68,10 @@
     background: rgb(0, 74, 164);
     cursor: pointer;
 }
+
+
+
+.c-omni-wrapper {
+    width: 712px;
+    padding: 20px 0;
+}
