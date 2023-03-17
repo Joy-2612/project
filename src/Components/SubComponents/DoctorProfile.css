@@ -3,14 +3,69 @@
     height: 100vh;
     background-color: #f0f0f5;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     align-items: center;
+    text-rendering: optimizeSpeed;
 }
 .profile_container{
     width: 60%;
-    height: 80vh;
+    height: auto;
+    max-height: 80vh;
     background-color: #fff;
+    padding:  2rem 2rem;
+    display: flex;
+}
+.img-section{
+    width: 20%;
+}
+.img-section img{
+    width: 100%;
+}
+.desc-section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+.doc_name h1{
+  font-size:4rem;
+  color: #414146;
+}
+.doc_degree h2{
+    font-size: 2rem;
+    color: #414146;
+}
+.doc_rating{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.doc_rating span{
+    font-size: 2rem;
+    color: green;
+}
+
+.doc_desc p{
+    font-size: 1.5rem;
+    color:#414146;
+}
+
+@media (max-width: 600px){
+    .img-section{
+        width: 35%;
+    }
+    .doc_name h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 500px){
+    .doc_name h1{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 450px){
+    .doc_desc p{
+        font-size: 0.8rem;
+    }
 }
 .appointment_container{
     width: 30%;
@@ -24,7 +79,20 @@
     }
     .profile_container{
         width: 90%;
-        height: 60%;
+        height: 40%;
+    }
+    .appointment_container{
+        width: 90%;
+        height: 30%;
+    }
+}
+@media (max-width: 450px){
+    .main_container{
+        flex-direction: column;
+    }
+    .profile_container{
+        width: 90%;
+        height: 40%;
     }
     .appointment_container{
         width: 90%;
