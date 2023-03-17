@@ -23,7 +23,9 @@
 
 .header .navbar a{
     font-size: 2rem;
+    font-weight: 500;
     margin-left: 2rem;
+    color: #414146;
     color: var(--black);
 }
 

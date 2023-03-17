@@ -13,9 +13,8 @@ const App = () => {
   return (
     <div>
         <Navbar/>
-        <HomeSearch/>
+        {/* <HomeSearch/> */}
         <Home/>
-        {/* <Features/> */}
         <Footer/>
     </div>
   )

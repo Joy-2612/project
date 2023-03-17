@@ -14,7 +14,7 @@ const ConsultCards = () => {
 
             <div className='consult-cards-about'>
                 <div>
-                    <h2>Consult top doctors online for any health concern</h2>
+                    <h1>Consult top doctors online for any health concern</h1>
                     <p>Private online consultations with verified doctors in all specialists</p>
                 </div>
                     <button className='button-all-speciality' type='button'>View All specialities</button>
